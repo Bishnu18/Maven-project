@@ -3,16 +3,8 @@ package com.example;
 public class App {
 
 	public static void main(String[] args) {
-System.out.println("Hello, Maven Project!");
-        
-         Scanner sc = new Scanner(System.in);
-
-        // Taking input from user
-        System.out.print("Enter first number: ");
-        int a = sc.nextInt();
-
-        System.out.print("Enter second number: ");
-        int b = sc.nextInt();
+    int a=10;
+		int b=5;
 		
 
         System.out.println("Addition: " + (a + b));
